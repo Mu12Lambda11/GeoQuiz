@@ -4,6 +4,7 @@ ADDED from C:\Users\isaia\Documents\School Stuff\Fall 2023\CS4750 Mobile App Dev
 INJECTED from C:\Users\isaia\Documents\School Stuff\Fall 2023\CS4750 Mobile App Dev\GeoQuiz\app\src\main\AndroidManifest.xml:2:1-22:12
 INJECTED from C:\Users\isaia\Documents\School Stuff\Fall 2023\CS4750 Mobile App Dev\GeoQuiz\app\src\main\AndroidManifest.xml:2:1-22:12
 INJECTED from C:\Users\isaia\Documents\School Stuff\Fall 2023\CS4750 Mobile App Dev\GeoQuiz\app\src\main\AndroidManifest.xml:2:1-22:12
+MERGED from [androidx.databinding:viewbinding:7.1.2] C:\Users\isaia\.gradle\caches\transforms-3\8533352bee462564c07589b37d01dc19\transformed\viewbinding-7.1.2\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\isaia\.gradle\caches\transforms-3\39944b7def7b69283bb300881e7c4a03\transformed\core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\isaia\.gradle\caches\transforms-3\a5afaed4eb7d69b30540b053d8bcc22c\transformed\material-1.5.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.3] C:\Users\isaia\.gradle\caches\transforms-3\a5ed4e03427e1227dfd01f556582112a\transformed\constraintlayout-2.1.3\AndroidManifest.xml:2:1-11:12
@@ -111,6 +112,8 @@ uses-sdk
 INJECTED from C:\Users\isaia\Documents\School Stuff\Fall 2023\CS4750 Mobile App Dev\GeoQuiz\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\isaia\Documents\School Stuff\Fall 2023\CS4750 Mobile App Dev\GeoQuiz\app\src\main\AndroidManifest.xml
 INJECTED from C:\Users\isaia\Documents\School Stuff\Fall 2023\CS4750 Mobile App Dev\GeoQuiz\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.1.2] C:\Users\isaia\.gradle\caches\transforms-3\8533352bee462564c07589b37d01dc19\transformed\viewbinding-7.1.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.databinding:viewbinding:7.1.2] C:\Users\isaia\.gradle\caches\transforms-3\8533352bee462564c07589b37d01dc19\transformed\viewbinding-7.1.2\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\isaia\.gradle\caches\transforms-3\39944b7def7b69283bb300881e7c4a03\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
 MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\isaia\.gradle\caches\transforms-3\39944b7def7b69283bb300881e7c4a03\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.material:material:1.5.0] C:\Users\isaia\.gradle\caches\transforms-3\a5afaed4eb7d69b30540b053d8bcc22c\transformed\material-1.5.0\AndroidManifest.xml:20:5-44
