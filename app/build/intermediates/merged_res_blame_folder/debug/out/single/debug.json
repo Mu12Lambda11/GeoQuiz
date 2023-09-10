@@ -66,5 +66,9 @@
     {
         "merged": "C:\\Users\\isaia\\Documents\\School Stuff\\Fall 2023\\CS4750 Mobile App Dev\\GeoQuiz\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\isaia\\Documents\\School Stuff\\Fall 2023\\CS4750 Mobile App Dev\\GeoQuiz\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\isaia\\Documents\\School Stuff\\Fall 2023\\CS4750 Mobile App Dev\\GeoQuiz\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_cheat.xml.flat",
+        "source": "C:\\Users\\isaia\\Documents\\School Stuff\\Fall 2023\\CS4750 Mobile App Dev\\GeoQuiz\\app\\src\\main\\res\\layout\\activity_cheat.xml"
     }
 ]

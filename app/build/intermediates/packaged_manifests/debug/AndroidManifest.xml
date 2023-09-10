@@ -20,6 +20,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.GeoQuiz" >
         <activity
+            android:name="com.bignerdranch.android.geoquiz.CheatActivity"
+            android:exported="false" />
+        <activity
             android:name="com.bignerdranch.android.geoquiz.MainActivity"
             android:exported="true" >
             <intent-filter>
