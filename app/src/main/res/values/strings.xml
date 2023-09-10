@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">GeoQuiz</string>
-    <string name="question_australia">Canberra is the capital of Australia.</string>
-    <string name="question_asia">Lake Baikal is the world\'s oldest and deepest freshwater lake.</string>
-    <string name="question_oceans">The Pacific Ocean is larger than the Atlantic Ocean.</string>
-    <string name="question_americas">The Amazon River is the longest river in the Americas</string>
-    <string name="question_africa">The source of the Nile River is in Egypt</string>
-    <string name="question_mideast">The Suez Canal connects the Red Sea and the Indian Ocean</string>
+    <string name="question_mario">The original Super Mario Bros has 8 worlds</string>
+    <string name="question_Mega_man">Mega Man 1 has 8 robot masters</string>
+    <string name="question_SF">Capcom released Street Fighter 2 in the year 2000</string>
+    <string name="question_Sonic">Sonic the Hedgehog released on the Super Nintendo in 1991</string>
+    <string name="question_Pacman">Pacman is yellow</string>
+    <string name="question_Zelda">Zelda is the protagonist of "The Legend of Zelda"</string>
     <string name="true_button">True</string>
     <string name="false_button">False</string>
     <string name="next_button">Next</string>
@@ -16,4 +16,5 @@
     <string name="show_answer_button">Show Answer</string>
     <string name="cheat_button">Cheat!</string>
     <string name="judgment_toast">Cheating is wrong.</string>
+
 </resources>

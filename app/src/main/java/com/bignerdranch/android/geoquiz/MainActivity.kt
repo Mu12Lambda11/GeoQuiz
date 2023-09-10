@@ -19,6 +19,8 @@ class MainActivity : AppCompatActivity() {
 
     private val quizViewModel: QuizViewModel by viewModels()
 
+    private var totalScore =0
+
     private val cheatLauncher = registerForActivityResult(
         ActivityResultContracts.StartActivityForResult()
     ) { result ->
@@ -81,6 +83,14 @@ class MainActivity : AppCompatActivity() {
             else -> R.string.incorrect_toast
         }
         Toast.makeText(this, messageResId,  Toast.LENGTH_SHORT).show()
+        //Score counting code
+        if(userAnswer==correctAnswer) {
+            totalScore += 1
+        }
+        val finalScore = quizViewModel.scoreCheck(totalScore)
+        if(finalScore!=-1){
+            Toast.makeText(this, finalScore.toString()+"%",Toast.LENGTH_LONG).show()
+        }
     }
     override fun onStart(){
         super.onStart()

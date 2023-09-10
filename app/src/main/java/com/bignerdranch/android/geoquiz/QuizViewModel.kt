@@ -1,6 +1,7 @@
 package com.bignerdranch.android.geoquiz
 
 import android.util.Log
+import android.widget.Toast
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 
@@ -8,14 +9,15 @@ private const val TAG = "QuizViewModel"
 const val CURRENT_INDEX_KEY = "CURRENT_INDEX_KEY"
 const val IS_CHEATER_KEY = "IS_CHEATER_KEY"
 
+
 class QuizViewModel(private val savedStateHandle: SavedStateHandle) : ViewModel() {
     private val questionBank=listOf (
-        Question(R.string.question_australia,true),
-        Question(R.string.question_oceans,true),
-        Question(R.string.question_mideast,false),
-        Question(R.string.question_africa,false),
-        Question(R.string.question_americas,true),
-        Question(R.string.question_asia,true)
+        Question(R.string.question_mario,true),
+        Question(R.string.question_Mega_man,true),
+        Question(R.string.question_SF,false),
+        Question(R.string.question_Sonic,false),
+        Question(R.string.question_Pacman,true),
+        Question(R.string.question_Zelda,false)
     )
     var isCheater: Boolean
         get() = savedStateHandle.get(IS_CHEATER_KEY) ?: false
@@ -33,5 +35,11 @@ class QuizViewModel(private val savedStateHandle: SavedStateHandle) : ViewModel(
     fun moveToPrevious() {
         currentIndex = (currentIndex - 1) % questionBank.size
     }
-
+    fun scoreCheck(score: Int): Int {
+        var displayScore=-1
+        if(currentIndex==questionBank.size-1){
+            displayScore = (score*100)/questionBank.size
+        }
+        return displayScore
+    }
 }
